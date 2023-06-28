@@ -1,0 +1,16 @@
+{
+  "name": "Meet Picture-in-Picture shortcut",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "permissions": [
+    "scripting",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://meet.google.com/*"
+  ],
+  "action": {}
+}
